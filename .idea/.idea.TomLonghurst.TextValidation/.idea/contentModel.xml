@@ -59,13 +59,20 @@
       </e>
       <e p="TomLonghurst.TextValidation.Examples.DependencyInjection" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CustomRegisterableInterfaces" t="Include">
-          <e p="IEmailValidator.cs" t="Include" />
-          <e p="ILettersOnlyValidator.cs" t="Include" />
-          <e p="INotNullOrEmptyValidator.cs" t="Include" />
+        <e p="Custom" t="Include">
+          <e p="EmailValidator.cs" t="Include" />
+          <e p="LettersOnlyValidator.cs" t="Include" />
+          <e p="NotNullOrEmptyValidator.cs" t="Include" />
+          <e p="RegisterableInterfaces" t="Include">
+            <e p="IEmailValidator.cs" t="Include" />
+            <e p="ILettersOnlyValidator.cs" t="Include" />
+            <e p="INotNullOrEmptyValidator.cs" t="Include" />
+          </e>
         </e>
-        <e p="DependencyInjectionTests.cs" t="Include" />
-        <e p="InjectedClass.cs" t="Include" />
+        <e p="CustomInterfacesDependencyInjectionTests.cs" t="Include" />
+        <e p="CustomInterfacesInjectedClass.cs" t="Include" />
+        <e p="NamedServicesDependencyInjectionTests.cs" t="Include" />
+        <e p="NamedServicesInjectedClass.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

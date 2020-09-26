@@ -8,7 +8,7 @@ using TomLonghurst.TextValidation.Validators;
 
 namespace TomLonghurst.TextValidation.Examples.DependencyInjection
 {
-    public class DependencyInjectionTests
+    public class NamedServicesDependencyInjectionTests
     {
         private ServiceProvider _serviceProvider;
         private IContainer _textValidatorsContainer;
@@ -29,7 +29,7 @@ namespace TomLonghurst.TextValidation.Examples.DependencyInjection
 
             _serviceProvider = new ServiceCollection()
                 .AddSingleton<IContainer>(container)
-                .AddSingleton<InjectedClass>()
+                .AddSingleton<NamedServicesInjectedClass>()
                 .BuildServiceProvider();
 
             _textValidatorsContainer = _serviceProvider.GetService<IContainer>();
@@ -65,7 +65,7 @@ namespace TomLonghurst.TextValidation.Examples.DependencyInjection
         [Test] 
         public void InjectedClass_ReceivesInjectedDependencies()
         {
-            var injectedClass = _serviceProvider.GetService<InjectedClass>();
+            var injectedClass = _serviceProvider.GetService<NamedServicesInjectedClass>();
             
             var validator1 = injectedClass.EmailValidator;
             var validator2 = injectedClass.NotNullOrEmptyValidator;
