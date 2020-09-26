@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="Tweaked MultipleTextValidators Tests">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/IEmailValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/ILettersOnlyValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/INotNullOrEmptyValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/InjectedClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/PredefinedTextValidationExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/TomLonghurst.TextValidation.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/TomLonghurst.TextValidation.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.sln" afterDir="false" />
-    </list>
+    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="DependencyInjectionTests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +60,6 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/FunctionTextValidatorTests - Copy.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/RegexTextValidatorTests.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/PredefinedTextValidatorTests.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/RegexTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncMultipleTextValidatorsTests.cs" />
@@ -81,7 +69,9 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/INotNullOrEmptyValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/INotNullOrEmptyValidator - Copy.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/InjectedClass.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Program.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/DependencyInjectionTests.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601058291458</updated>
       <workItem from="1601058544110" duration="5899000" />
-      <workItem from="1601108998935" duration="3058000" />
+      <workItem from="1601108998935" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1601109014388</created>
@@ -169,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601110502689</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DependencyInjectionTests">
+      <created>1601112289332</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601112289332</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,93 +195,94 @@
     <MESSAGE value="PredefinedTextValidation initialise mapped validator in constructor to avoid subsequent dictionary lookups" />
     <MESSAGE value="Tidied up PredefinedMapper dead code and method privacy" />
     <MESSAGE value="Tweaked MultipleTextValidators Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaked MultipleTextValidators Tests" />
+    <MESSAGE value="DependencyInjectionTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="DependencyInjectionTests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="259" y="317" width="2049" height="766" key="#xdebugger.evaluate" timestamp="1601111487352">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="259" y="317" width="2049" height="766" key="#xdebugger.evaluate/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111487352" />
-    <state width="2517" height="511" key="GridCell.Tab.0.bottom" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.0.center" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.0.center" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.0.left" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.0.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.0.left" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.0.right" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.0.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.0.right" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.1.bottom" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.0.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.1.center" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.1.center" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.1.left" timestamp="1601111578436">
+    <state width="2517" height="511" key="GridCell.Tab.1.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.1.left" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578436" />
-    <state width="2517" height="511" key="GridCell.Tab.1.right" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.1.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.1.right" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.2.bottom" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.2.center" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.2.center" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.2.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.2.left" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.2.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.2.left" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.2.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.2.right" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.2.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.2.right" timestamp="1601112091262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.2.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.3.bottom" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.2.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091262" />
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.3.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.3.center" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.3.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.3.center" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.3.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.3.left" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.3.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.3.left" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.3.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.3.right" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.3.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.3.right" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.3.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.4.bottom" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.3.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.4.bottom" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.4.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.4.center" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.4.bottom/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.4.center" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.4.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.4.left" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.4.center/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.4.left" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.4.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
-    <state width="2517" height="511" key="GridCell.Tab.4.right" timestamp="1601111578437">
+    <state width="2517" height="511" key="GridCell.Tab.4.left/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
+    <state width="2517" height="511" key="GridCell.Tab.4.right" timestamp="1601112091263">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="511" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601111578437" />
+    <state width="2517" height="511" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112091263" />
     <state x="873" y="432" key="Rider.ProjectTemplateDialog.Size" timestamp="1601110606384">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -297,10 +295,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="345" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109029599" />
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601110503929">
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601112296624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601110503929" />
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112296624" />
     <state x="1099" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601111706930">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -309,6 +307,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="912" y="417" width="737" height="566" key="find.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109200179" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1601112283544">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112283544" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,14 +329,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Program.cs</url>
-          <line>76</line>
+          <url>file://$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/DependencyInjectionTests.cs</url>
+          <line>75</line>
           <properties documentPath="D:\GitKraken\DotNet.TextValidation\TomLonghurst.TextValidation.Examples.DependencyInjection\Program.cs" initialLine="60">
             <startOffsets>
-              <option value="2946" />
+              <option value="2927" />
             </startOffsets>
             <endOffsets>
-              <option value="2973" />
+              <option value="2954" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />

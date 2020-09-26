@@ -43,6 +43,7 @@
         <e p="Predefined" t="Include">
           <e p="PredefinedMapper.cs" t="Include" />
           <e p="PredefinedTextValidation.cs" t="Include" />
+          <e p="PredefinedTextValidator.cs" t="Include" />
         </e>
         <e p="TomLonghurst.TextValidation.csproj" t="IncludeRecursive" />
         <e p="Validators" t="Include">
@@ -53,7 +54,6 @@
           </e>
           <e p="FunctionTextValidator.cs" t="Include" />
           <e p="MultipleTextValidators.cs" t="Include" />
-          <e p="PredefinedTextValidator.cs" t="Include" />
           <e p="RegexTextValidator.cs" t="Include" />
         </e>
       </e>
@@ -64,6 +64,7 @@
           <e p="ILettersOnlyValidator.cs" t="Include" />
           <e p="INotNullOrEmptyValidator.cs" t="Include" />
         </e>
+        <e p="DependencyInjectionTests.cs" t="Include" />
         <e p="InjectedClass.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -72,7 +73,6 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
         <e p="TomLonghurst.TextValidation.Examples.DependencyInjection.csproj" t="IncludeRecursive" />
       </e>
       <e p="TomLonghurst.TextValidation.sln" t="IncludeFlat" />

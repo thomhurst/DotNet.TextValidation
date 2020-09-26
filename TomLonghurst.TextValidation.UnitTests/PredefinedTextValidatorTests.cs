@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using TomLonghurst.TextValidation.Predefined;
-using TomLonghurst.TextValidation.Validators;
 
 namespace TomLonghurst.TextValidation.UnitTests
 {
@@ -18,7 +17,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("mkyong-100@yahoo-test.com")]
         public void Valid_Email_Returns_True(string emailAddress)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsEmailAddress).IsValid(emailAddress);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsEmailAddress).IsValid(emailAddress);
             
             Assert.True(isValid);
         }
@@ -36,7 +35,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("mkyong@mkyong@gmail.com")]
         public void Invalid_Email_Returns_False(string emailAddress)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsEmailAddress).IsValid(emailAddress);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsEmailAddress).IsValid(emailAddress);
 
             Assert.False(isValid);
         }
@@ -45,7 +44,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("", false)]
         public void IsNull_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNull).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNull).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -54,7 +53,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("", true)]
         public void IsNotNull_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNotNull).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNotNull).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -65,7 +64,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("blah", false)]
         public void IsNullOrEmpty_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNullOrEmpty).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNullOrEmpty).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -76,7 +75,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("blah", true)]
         public void IsNotNullOrEmpty_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNotNullOrEmpty).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNotNullOrEmpty).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -87,7 +86,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("blah", false)]
         public void IsNullOrWhitespace_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNullOrWhitespace).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNullOrWhitespace).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -98,7 +97,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("blah", true)]
         public void IsNotNullOrWhitespace_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNotNullOrWhitespace).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNotNullOrWhitespace).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -110,7 +109,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("123", true)]
         public void IsNumbersOnly_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsNumbersOnly).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsNumbersOnly).IsValid(input);
 
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
@@ -122,7 +121,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("123", true)]
         public void IsNumbersOrLettersOnly_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsLettersOrNumbersOnly).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsLettersOrNumbersOnly).IsValid(input);
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
         
@@ -133,7 +132,7 @@ namespace TomLonghurst.TextValidation.UnitTests
         [TestCase("123", false)]
         public void IsLettersOnly_ReturnsCorrectResult(string input, bool expectedIsValid)
         {
-            var isValid = new PredefinedTextValidator(PredefinedTextValidation.IsLettersOnly).IsValid(input);
+            var isValid = PredefinedTextValidator.Get(PredefinedTextValidation.IsLettersOnly).IsValid(input);
             Assert.That(isValid, Is.EqualTo(expectedIsValid));
         }
     }

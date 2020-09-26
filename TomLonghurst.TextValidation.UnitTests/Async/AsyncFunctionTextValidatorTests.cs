@@ -1,7 +1,5 @@
 using System.Threading.Tasks;
-using Moq;
 using NUnit.Framework;
-using TomLonghurst.TextValidation.Contracts;
 using TomLonghurst.TextValidation.Validators.Async;
 
 namespace TomLonghurst.TextValidation.UnitTests.Async

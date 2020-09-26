@@ -1,6 +1,5 @@
 using StructureMap;
 using TomLonghurst.TextValidation.Contracts;
-using TomLonghurst.TextValidation.Examples.DependencyInjection.CustomRegisterableInterfaces;
 
 namespace TomLonghurst.TextValidation.Examples.DependencyInjection
 {
