@@ -10,10 +10,6 @@ namespace TomLonghurst.TextValidation.Predefined
     internal static class PredefinedMapper
     {
         private static readonly Dictionary<PredefinedTextValidation, ITextValidator> Validators = new Dictionary<PredefinedTextValidation, ITextValidator>();
-        static PredefinedMapper()
-        {
-            
-        }
 
         private static ITextValidator GetOrSet(PredefinedTextValidation predefinedTextValidation,
             Func<ITextValidator> setValidatorAction)
@@ -30,7 +26,7 @@ namespace TomLonghurst.TextValidation.Predefined
             return validator;
         } 
         
-        public static ITextValidator GetValidator(PredefinedTextValidation predefinedTextValidation)
+        internal static ITextValidator GetValidator(PredefinedTextValidation predefinedTextValidation)
         {
             switch (predefinedTextValidation)
             {
