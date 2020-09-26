@@ -1,5 +1,6 @@
 using TomLonghurst.TextValidation.Contracts;
 using TomLonghurst.TextValidation.Examples.DependencyInjection.Custom.RegisterableInterfaces;
+// ReSharper disable SuggestBaseTypeForParameter
 
 namespace TomLonghurst.TextValidation.Examples.DependencyInjection
 {
