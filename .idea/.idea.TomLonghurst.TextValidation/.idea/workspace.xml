@@ -8,46 +8,20 @@
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncFunctionTextValidatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncMultipleTextValidatorsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncWrapTextValidatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/MultipleTextValidatorsTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IAsyncTextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/ITextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Exceptions/TextValidationException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/TaskExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedTextValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncFunctionTextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncMultipleTextValidators.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/FunctionTextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/RegexTextValidator.cs" afterDir="false" />
+    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="FunctionTextValidatorTests">
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/RegexTextValidatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/AsyncFunctionTextValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/FunctionTextValidatorTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,6 +56,9 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncMultipleTextValidatorsTests.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncWrapTextValidatorTests - Copy.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncFunctionTextValidatorTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/AsyncFunctionTextValidatorTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/FunctionTextValidatorTests - Copy.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/RegexTextValidatorTests.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +83,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,13 +95,29 @@
       <option name="presentableId" value="Default" />
       <updated>1601058291458</updated>
       <workItem from="1601058544110" duration="5899000" />
+      <workItem from="1601108998935" duration="341000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1601109014388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109014388</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FunctionTextValidatorTests">
+      <created>1601109154363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109154363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,9 +129,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="FunctionTextValidatorTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="FunctionTextValidatorTests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1036" y="317" key="#xdebugger.evaluate" timestamp="1601108133227">
@@ -236,6 +230,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1114" y="315" key="RiderGenerateDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601058534811" />
+    <state x="782" y="345" key="SettingsEditor" timestamp="1601109029599">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109029599" />
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601109155824">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109155824" />
+    <state x="912" y="417" width="737" height="566" key="find.popup" timestamp="1601109200179">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="912" y="417" width="737" height="566" key="find.popup/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109200179" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
