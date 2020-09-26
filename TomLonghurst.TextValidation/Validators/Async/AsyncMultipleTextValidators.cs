@@ -19,6 +19,16 @@ namespace TomLonghurst.TextValidation.Validators.Async
         {
             _textValidators = textValidators.UnwrapAllAsync();
         }
+
+        public AsyncMultipleTextValidators(ITextValidator textValidator, IAsyncTextValidator asyncTextValidator)
+        {
+            _textValidators = asyncTextValidator.WrapAsync(textValidator).UnwrapAllAsync();
+        }
+        
+        public AsyncMultipleTextValidators(IAsyncTextValidator asyncTextValidator, ITextValidator textValidator)
+        {
+            _textValidators = asyncTextValidator.WrapAsync(textValidator).UnwrapAllAsync();
+        }
         
         public Task<bool> IsValidAsync(string input)
         {

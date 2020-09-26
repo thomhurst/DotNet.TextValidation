@@ -23,7 +23,7 @@ namespace TomLonghurst.TextValidation.Extensions
             return textValidators.SelectMany(UnwrapAllAsync);
         }
 
-        private static IEnumerable<IAsyncTextValidator> UnwrapAllAsync(this IAsyncTextValidator textValidator)
+        internal static IEnumerable<IAsyncTextValidator> UnwrapAllAsync(this IAsyncTextValidator textValidator)
         {
             if (textValidator is IAsyncWrappedValidator wrappedValidators)
             {
