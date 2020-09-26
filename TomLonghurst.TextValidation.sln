@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.TextValidation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.TextValidation.UnitTests", "TomLonghurst.TextValidation.UnitTests\TomLonghurst.TextValidation.UnitTests.csproj", "{D7EDBA31-BDAC-486E-96BF-8EC22AFA558E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.TextValidation.Examples.DependencyInjection", "TomLonghurst.TextValidation.Examples.DependencyInjection\TomLonghurst.TextValidation.Examples.DependencyInjection.csproj", "{3A45B173-5082-474E-A84C-6EFCC927D0FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D7EDBA31-BDAC-486E-96BF-8EC22AFA558E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EDBA31-BDAC-486E-96BF-8EC22AFA558E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EDBA31-BDAC-486E-96BF-8EC22AFA558E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A45B173-5082-474E-A84C-6EFCC927D0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A45B173-5082-474E-A84C-6EFCC927D0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A45B173-5082-474E-A84C-6EFCC927D0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A45B173-5082-474E-A84C-6EFCC927D0FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
