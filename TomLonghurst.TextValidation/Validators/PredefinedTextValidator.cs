@@ -5,16 +5,16 @@ namespace TomLonghurst.TextValidation.Validators
 {
     public class PredefinedTextValidator : ITextValidator
     {
-        private readonly PredefinedTextValidation _predefinedTextValidation;
+        private readonly ITextValidator _textValidator;
 
         public PredefinedTextValidator(PredefinedTextValidation predefinedTextValidation)
         {
-            _predefinedTextValidation = predefinedTextValidation;
+            _textValidator = PredefinedMapper.GetValidator(predefinedTextValidation);
         }
         
         public bool IsValid(string input)
         {
-            return PredefinedMapper.GetValidator(_predefinedTextValidation).IsValid(input);
+            return _textValidator.IsValid(input);
         }
     }
 }
