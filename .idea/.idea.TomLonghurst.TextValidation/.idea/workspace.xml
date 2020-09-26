@@ -19,18 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="Refactored PredefinedTextValidator">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/EmailValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/LettersOnlyValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/NotNullOrEmptyValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesDependencyInjectionTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesInjectedClass.cs" afterDir="false" />
+    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="Resharper comment">
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IAsyncWrappedValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IWrappedValidators.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/AsyncWrapExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/WrapExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/IEmailValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/IEmailValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/ILettersOnlyValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/ILettersOnlyValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomRegisterableInterfaces/INotNullOrEmptyValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/INotNullOrEmptyValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/DependencyInjectionTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/NamedServicesDependencyInjectionTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/InjectedClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/NamedServicesInjectedClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncMultipleTextValidators.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncMultipleTextValidators.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/GitKraken/DotNet.TextValidation/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesInjectedClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/GitKraken/DotNet.TextValidation/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/GitKraken/DotNet.TextValidation/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -50,21 +48,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Exceptions/TextValidationException.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/MultiTextValidators.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/TextValidator.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/ITextValidator.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/FunctionTextValidator.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/FunctionTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedTextValidation.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/AsyncFunctionTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IAsyncTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/TaskExtensions.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/MultipleTextValidators.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncWrapTextValidatorTests.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncWrapTextValidatorTests - Copy.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/Async/AsyncFunctionTextValidatorTests.cs" />
@@ -94,11 +84,21 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/ILettersOnlyValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/IEmailValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/RegisterableInterfaces/INotNullOrEmptyValidator.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesInjectedClass.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/NotNullOrEmptyValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/LettersOnlyValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/Custom/EmailValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesDependencyInjectionTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.Examples.DependencyInjection/CustomInterfacesInjectedClass.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IWrappedValidator.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IWrappedValidators.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidators.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidatorses.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Contracts/IAsyncWrappedValidator.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/WrapExtensions.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncWrapTextValidator.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Extensions/AsyncWrapExtensions.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/Async/AsyncMultipleTextValidators.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601058291458</updated>
       <workItem from="1601058544110" duration="5899000" />
-      <workItem from="1601108998935" duration="4530000" />
+      <workItem from="1601108998935" duration="6982000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1601109014388</created>
@@ -200,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601112666042</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CustomInterfacesDependencyInjectionTests">
+      <created>1601113566333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601113566333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Resharper comment">
+      <created>1601113715321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601113715321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +245,9 @@
     <MESSAGE value="Tweaked MultipleTextValidators Tests" />
     <MESSAGE value="DependencyInjectionTests" />
     <MESSAGE value="Refactored PredefinedTextValidator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored PredefinedTextValidator" />
+    <MESSAGE value="CustomInterfacesDependencyInjectionTests" />
+    <MESSAGE value="Resharper comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resharper comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="259" y="317" width="2049" height="766" key="#xdebugger.evaluate" timestamp="1601111487352">
@@ -326,14 +342,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1114" y="315" key="RiderGenerateDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601113179297" />
+    <state x="940" y="326" key="RollbackChangesDialog" timestamp="1601113607416">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="940" y="326" key="RollbackChangesDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601113607416" />
     <state x="782" y="345" key="SettingsEditor" timestamp="1601109029599">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="345" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109029599" />
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601112667036">
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601113716287">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601112667036" />
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601113716287" />
     <state x="1099" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601111706930">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
