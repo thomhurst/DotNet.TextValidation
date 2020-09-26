@@ -11,7 +11,7 @@ namespace TomLonghurst.TextValidation.Validators
         {
             _regex = regex;
         }
-        
+
         public bool IsValid(string input)
         {
             return _regex.Match(input).Success;

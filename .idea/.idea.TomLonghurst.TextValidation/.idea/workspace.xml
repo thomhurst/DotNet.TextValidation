@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="FunctionTextValidatorTests">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/RegexTextValidatorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/AsyncFunctionTextValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/FunctionTextValidatorTests.cs" afterDir="false" />
+    <list default="true" id="30569197-3998-4e51-9b95-cb8ffb3cc3e1" name="Default Changelist" comment="Tidied up PredefinedMapper dead code and method privacy">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.TextValidation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/RegexTextValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/RegexTextValidator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/GitKraken/DotNet.TextValidation/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GitKraken/DotNet.TextValidation/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFAA5FE0-844C-48B6-A4CB-8436910B8394/13/cf5efe82/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,9 +45,7 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/ITextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/FunctionTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/FunctionTextValidator.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedTextValidation.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/MultipleTextValidators.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/MultipleTextValidatorsTests.cs" />
@@ -59,6 +62,10 @@
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/AsyncFunctionTextValidatorTests.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/FunctionTextValidatorTests - Copy.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/RegexTextValidatorTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation.UnitTests/PredefinedTextValidatorTests.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/PredefinedTextValidator.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Predefined/PredefinedMapper.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.TextValidation/Validators/RegexTextValidator.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601058291458</updated>
       <workItem from="1601058544110" duration="5899000" />
-      <workItem from="1601108998935" duration="341000" />
+      <workItem from="1601108998935" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1601109014388</created>
@@ -111,7 +118,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601109154363</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RegexTextValidatorTests">
+      <created>1601109347613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109347613</updated>
+    </task>
+    <task id="LOCAL-00004" summary="More PredefinedTextValidatorTests tests">
+      <created>1601109735993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109735993</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PredefinedTextValidation initialise mapped validator in constructor to avoid subsequent dictionary lookups">
+      <created>1601109841171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109841171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tidied up PredefinedMapper dead code and method privacy">
+      <created>1601109898808</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109898808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +170,11 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="FunctionTextValidatorTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="FunctionTextValidatorTests" />
+    <MESSAGE value="RegexTextValidatorTests" />
+    <MESSAGE value="More PredefinedTextValidatorTests tests" />
+    <MESSAGE value="PredefinedTextValidation initialise mapped validator in constructor to avoid subsequent dictionary lookups" />
+    <MESSAGE value="Tidied up PredefinedMapper dead code and method privacy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidied up PredefinedMapper dead code and method privacy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1036" y="317" key="#xdebugger.evaluate" timestamp="1601108133227">
@@ -234,10 +273,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="782" y="345" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109029599" />
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601109155824">
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601109900083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109155824" />
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601109900083" />
     <state x="912" y="417" width="737" height="566" key="find.popup" timestamp="1601109200179">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

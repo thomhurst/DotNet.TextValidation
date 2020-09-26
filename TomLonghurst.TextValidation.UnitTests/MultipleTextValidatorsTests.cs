@@ -43,11 +43,12 @@ namespace TomLonghurst.TextValidation.UnitTests
             Assert.False(isValid);
         }
         
-        [Test]
-        public void OneChildValidatorReturningFalse_ReturnsFalse()
+        [TestCase(false, true)]
+        [TestCase(true, false)]
+        public void OneChildValidatorReturningFalse_ReturnsFalse(bool validator1Result, bool validator2Result)
         {
-            _textValidator1.Setup(validator => validator.IsValid(It.IsAny<string>())).Returns(true);
-            _textValidator2.Setup(validator => validator.IsValid(It.IsAny<string>())).Returns(false);
+            _textValidator1.Setup(validator => validator.IsValid(It.IsAny<string>())).Returns(validator1Result);
+            _textValidator2.Setup(validator => validator.IsValid(It.IsAny<string>())).Returns(validator2Result);
 
             var isValid = _multipleTextValidators.IsValid("");
             
