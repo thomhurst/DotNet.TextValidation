@@ -26,6 +26,14 @@ new MultipleTextValidators(
   )
 ```
 
+or via extension methods
+
+```csharp
+new FunctionTextValidator(value => !string.IsNullOrEmpty(value)).Wrap(
+  new FunctionTextValidator(value => value.Contains("@")).IsValid(input)
+)
+```
+
 Use predefined validators
 
 ```csharp
@@ -57,6 +65,14 @@ Wrap multiple asynchronous validators together
     new AsyncFunctionTextValidator(value => Task.FromResult(!string.IsNullOrEmpty(value))),
     new AsyncFunctionTextValidator(value => Task.FromResult(value.Contains("@"))),
   )
+```
+
+Or via extensions
+
+```csharp
+    new AsyncFunctionTextValidator(value => Task.FromResult(!string.IsNullOrEmpty(value))).WrapAsync(
+      new FunctionTextValidator(value => value.Contains("@"))
+    )
 ```
 
 ## Dependency Injection
